@@ -1,0 +1,169 @@
+.main_navigation {
+  display: flex;
+  flex: 1, 1;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  min-width: 70%;
+  background-color: #0f1111;
+  color: white;
+  margin: 0;
+  /* padding: 10px 10px 0 5px; */
+}
+.logo {
+  /* border: 1px solid red; */
+  width: 128px;
+  height: 50px;
+}
+.logo img {
+  height: 35px;
+  width: 108px;
+  color: white;
+  margin: 10px 0px 0px 0px;
+}
+.logo span {
+  color: white;
+  text-decoration: none;
+}
+
+.search_filter_bar {
+  /* border: 1px solid red; */
+  width: 800px;
+  /* height: 35px; */
+  /* background-color: #e6e6e6; */
+  /* border-radius: 12px; */
+}
+.search_filter {
+  max-width: 800px;
+  min-width: 400px;
+  /* background-color: red;
+  border-radius: 20px; */
+}
+.search_filter_bar button  {
+  background-color: rgb(247, 138, 37);
+  /* height: 35px; */
+  width: 80px;
+  border:1px solid red;
+  border-radius: 50px;
+  /* border-radius: 10px 20px 0 0; */
+}
+/* .search_filter>ant-select .ant-select-selector {
+  background-color: rgb(247, 138, 37);
+  height: 35px;
+  width: 50px;
+} */
+/* .search_filter> ant-input-group{
+    width: 800px;
+    border: 1px solid red;
+} */
+/* .search_filter_bar > .ant-input-search{
+    margin: 0 9px;
+    width: 800px;
+} */
+.user_location {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 50px;
+  /* border: 1px solid red; */
+}
+.location_img {
+  font-size: 1.2rem;
+  margin-top: 16px;
+}
+.location_text span {
+  display: flex;
+  flex-direction: column;
+}
+.location_text :nth-child(2) {
+  font-weight: 700;
+}
+.language_dropdown {
+  /* border: 1px solid red; */
+  margin: 0 4px;
+  color: white;
+  background-color: black;
+  width: 71px;
+  height: 50px;
+}
+.language_dropdown img {
+  height: 20px;
+  /* margin-top: 15px; */
+  background-color: black;
+  border: none;
+}
+.language_dropdown_button {
+  background-color: black;
+  border: black;
+  margin-top: 10px;
+}
+.login_signup {
+  /* border: 1px solid red; */
+}
+.login_signup > * {
+  /* border: 1px solid red; */
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.login_signup button {
+  color: white;
+  background-color: black;
+  border: black;
+}
+.login_signup span:nth-child(2) {
+  font-weight: 700;
+}
+.order_action {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  width: 65px;
+}
+.order_action span:nth-child(2) {
+  font-weight: 700;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  width: 64px;
+  height: 50px;
+  margin-right: 10px;
+}
+.cart a {
+  color: white;
+}
+.cart a:hover {
+  color: white;
+}
+.cart div:nth-child(1) {
+  font-size: 20px;
+  color: rgb(184, 111, 16);
+  font-weight: 700;
+  margin-bottom: -20px;
+  margin-left: 8px;
+  width: 30px;
+}
+.cart_icon span:nth-child(1) {
+  font-size: 1.8rem;
+}
+.cart_icon span:nth-child(1):hover {
+  color: white;
+}
+.cart:hover,
+.order_action:hover,
+.login_signup:hover,
+.language_dropdown:hover,
+.user_location:hover,
+.logo:hover {
+  border: 1px solid white;
+}
+.cart:focus,
+.order_action:focus,
+.login_signup:focus,
+.language_dropdown:active,
+.user_location:visited,
+.logo:focus {
+  border: 1px solid rgb(253, 159, 52);
+}

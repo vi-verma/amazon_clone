@@ -1,0 +1,23 @@
+.signup{
+    min-width: 460px;
+    max-width: 30%;
+    padding: 20px;
+    margin: auto;
+    text-align: center;
+}
+.signup img{
+    width: 40%;
+}
+.form{
+    background-color: white;
+    border: 1px solid grey;
+    text-align: center;
+    margin: auto;
+    padding: 30px;
+}
+.form button{
+    background-color: #f0c14b;
+    border: yellow;
+    color: white;
+    width: 100%
+}

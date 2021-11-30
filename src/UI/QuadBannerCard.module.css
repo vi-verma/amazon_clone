@@ -1,0 +1,27 @@
+.quad_card{
+    /* min-width: 20%; */
+    /* max-width: 27%; */
+    width: 320px;
+    background-color: white;
+    margin: 10px;
+}
+.card_title{
+    font-size: 1.4rem;
+    margin: 10px;
+    font-weight: 600;
+}
+.card_images{
+
+}
+.img_flex{
+   display: flex;
+}
+.img_flex img{
+    width: 140px ;
+}
+.img_flex div{
+    margin: 10px;
+}
+.explore_link{
+    margin: 10px;
+}

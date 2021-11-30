@@ -1,0 +1,9 @@
+.slick-prev,  .slick-next{
+    background-color: grey;
+    height: 6rem;
+    width: 3rem;
+    z-index: 1;
+}
+.slick-prev:hover,.slick-next:hover,.slick-next:focus, .slick-prev:focus {
+    background-color: rgb(177, 177, 177);
+}

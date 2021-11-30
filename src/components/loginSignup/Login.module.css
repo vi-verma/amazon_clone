@@ -1,0 +1,23 @@
+.login{
+    text-align: center;
+    margin: auto;
+    padding: 2%;
+    max-width: 30%;
+    min-width: 460px;
+}
+.login img{
+    width: 40%;
+    
+}
+.form{
+    margin: auto;
+    border: 1px solid grey;
+    background-color: white;
+    padding: 16px;
+}
+.form button{
+    background-color: #f0c14b;
+    border: yellow;
+    color: white;
+    width: 100%
+}

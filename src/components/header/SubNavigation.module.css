@@ -1,0 +1,16 @@
+.sub_navigation{
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub_navigation__buttons ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    width: 800px;
+    padding-top: 8px;
+
+}
