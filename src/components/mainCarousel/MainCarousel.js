@@ -3,8 +3,8 @@ import React from 'react';
 
 const MainCarousel = () => {
     const contentStyle = {
-        height: '400px',
-        width:'1600px',
+        height: '50vh',
+        width:'100%',
         // color: '#fff',
         // lineHeight: '160px',
         // textAlign: 'center',
