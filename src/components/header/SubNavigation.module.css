@@ -1,0 +1,20 @@
+.sub_navigation{
+    width: 100%;
+    color: white;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sub_navigation__buttons ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+    min-width: 520px;
+    padding-top: 8px;
+}
+/* .sub_navigation__buttons> ul>li {
+    min-width: 50px;
+    padding: 0 10px;
+} */

@@ -1,0 +1,36 @@
+.noItemFound{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(143, 141, 141);
+    font-size: 2.4rem;
+    font-weight: 600;
+    background-color: white;
+    height: 400px;
+}
+.product_details{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    width: 80%;
+    min-width: 760px;
+    margin: 10px auto;
+    padding: 14px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid rgb(151, 150, 150);
+}
+.details{
+    max-width: 500px;
+}
+.product_details img{
+    width: 200px;
+    height: 220px;
+}
+.title{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+.price{
+    font-size: 1.2rem;
+    font-weight: 500;
+}

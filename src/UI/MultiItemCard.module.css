@@ -1,0 +1,24 @@
+.mic_card{
+    min-width: 860px;
+    height: auto;
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    color: grey;
+}
+/* .mic_title_bar{
+    font-size: 1.8rem;
+} */
+.title{
+    font-size: 1.4rem;
+    margin-right: 20px;
+}
+.link{
+    font-weight: 600;
+    color: aqua;
+    /* font-size: 1.2rem; */
+}
+link>* a{
+    text-decoration: none;
+    color: aqua;
+}

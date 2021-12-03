@@ -1,0 +1,144 @@
+.main_navigation {
+  display: flex;
+  flex: 1, 1;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  min-width: 80%;
+  background-color: #0f1111;
+  color: white;
+  margin: 0;
+  padding: 0 4px;
+}
+.main_navigation *> a{
+  color: #fff;
+}
+.logo {
+  width: 128px;
+  height: 50px;
+}
+.logo img {
+  height: 35px;
+  width: 108px;
+  margin: 10px 0px 0px 0px;
+}
+.logo span {
+  text-decoration: none;
+}
+
+.search_filter_bar {
+  width: 800px;
+}
+.search_filter {
+  max-width: 800px;
+  min-width: 400px;
+}
+.search_filter_bar button  {
+  background-color: rgb(247, 138, 37);
+  width: 80px;
+  border:1px solid red;
+  border-radius: 50px;
+}
+.user_location {
+  display: flex;
+  flex-direction: row;
+  width: 150px;
+  height: 50px;
+}
+
+.location_img {
+  font-size: 1.2rem;
+  margin-top: 16px;
+}
+.location_text span {
+  display: flex;
+  flex-direction: column;
+}
+.location_text :nth-child(2) {
+  font-weight: 700;
+}
+.language_dropdown {
+  /* border: 1px solid red; */
+  margin: 0 4px;
+  color: white;
+  background-color: black;
+  width: 71px;
+  height: 50px;
+}
+.language_dropdown img {
+  height: 20px;
+  background-color: black;
+  border: none;
+}
+.language_dropdown_button {
+  background-color: black;
+  border: black;
+  margin-top: 10px;
+}
+.login_signup > * {
+  width: 130px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+.login_signup button {
+  color: white;
+  background-color: black;
+  border: black;
+}
+.login_signup span:nth-child(2) {
+  font-weight: 700;
+}
+.order_action {
+  display: flex;
+  flex-direction: column;
+  width: 65px;
+}
+.order_action span:nth-child(2) {
+  font-weight: 700;
+}
+.cart {
+  display: flex;
+  flex-direction: column;
+  width: 64px;
+  height: 50px;
+  margin-right: 10px;
+}
+.cart a {
+  color: white;
+}
+.cart a:hover {
+  color: white;
+}
+.cart div:nth-child(1) {
+  font-size: 20px;
+  color: rgb(184, 111, 16);
+  font-weight: 700;
+  margin-bottom: -20px;
+  margin-left: 8px;
+  width: 30px;
+}
+.cart_icon span:nth-child(1) {
+  font-size: 1.8rem;
+}
+.cart_icon span:nth-child(1):hover {
+  color: white;
+}
+.cart:hover,
+.order_action:hover,
+.login_signup:hover,
+.language_dropdown:hover,
+.login_signup:hover,
+.user_location:hover,
+.logo:hover {
+  border: 1px solid white;
+  cursor: pointer;
+}
+.cart:focus,
+.order_action:focus,
+.login_signup:focus,
+.language_dropdown:active,
+.user_location:visited,
+.logo:focus {
+  border: 1px solid rgb(253, 159, 52);
+}
