@@ -1,0 +1,11 @@
+.subMenu_title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    padding: 10px;
+}
+:global(.ant-drawer-header){
+    padding: 0;
+    background: rgb(245, 243, 243);
+}   

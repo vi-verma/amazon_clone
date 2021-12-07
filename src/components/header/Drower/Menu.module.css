@@ -1,0 +1,18 @@
+.menu{
+
+}
+:global(.ant-drawer-header){
+    padding: 0;
+    background: black;
+}
+.sub_title{
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.flex_sub__menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 2.4rem;
+    font-size: 1rem;
+}
